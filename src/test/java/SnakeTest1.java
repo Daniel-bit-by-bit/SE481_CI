@@ -17,8 +17,8 @@ public class SnakeTest1 {
 	@Test
 	public void testIsGameOver() {
 		//automatically passes
-		assertEquals(false, true);
-		//fail("Not yet implemented");
+		// assertEquals(false, true);
+		fail("Test case failed!");
 	}
 
 }
