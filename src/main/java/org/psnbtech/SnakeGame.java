@@ -102,21 +102,21 @@ public class SnakeGame extends JFrame {
 	/**
 	 * Creates a new SnakeGame instance. Creates a new window,
 	 * and sets up the controller input.
-	 */
-	private SnakeGame() {
-		super("Snake Remake");
-		setLayout(new BorderLayout());
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setResizable(false);
+	//  */
+	// private SnakeGame() {
+	// 	super("Snake Remake");
+	// 	setLayout(new BorderLayout());
+	// 	setDefaultCloseOperation(EXIT_ON_CLOSE);
+	// 	setResizable(false);
 				
-		/*
-		 * Initialize the game's panels and add them to the window.
-		 */
-		this.board = new BoardPanel(this);
-		this.side = new SidePanel(this);
+	// 	/*
+	// 	 * Initialize the game's panels and add them to the window.
+	// 	 */
+	// 	this.board = new BoardPanel(this);
+	// 	this.side = new SidePanel(this);
 		
-		add(board, BorderLayout.CENTER);
-		add(side, BorderLayout.EAST);
+	// 	add(board, BorderLayout.CENTER);
+	// 	add(side, BorderLayout.EAST);
 		
 		/*
 		 * Adds a new key listener to the frame to process input. 
