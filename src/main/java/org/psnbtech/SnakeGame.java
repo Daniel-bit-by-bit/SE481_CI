@@ -111,12 +111,12 @@ public class SnakeGame extends JFrame {
 				
 	// 	/*
 	// 	 * Initialize the game's panels and add them to the window.
-	// 	 */
-	// 	this.board = new BoardPanel(this);
-	// 	this.side = new SidePanel(this);
+		 */
+		this.board = new BoardPanel(this);
+		this.side = new SidePanel(this);
 		
-	// 	add(board, BorderLayout.CENTER);
-	// 	add(side, BorderLayout.EAST);
+		add(board, BorderLayout.CENTER);
+		add(side, BorderLayout.EAST);
 		
 		/*
 		 * Adds a new key listener to the frame to process input. 
