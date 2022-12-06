@@ -120,24 +120,16 @@ public class SnakeGame extends JFrame {
 		
 		/*
 		 * Adds a new key listener to the frame to process input. 
-		//  */
-		addKeyListener(new KeyAdapter() {
-			
-			@Override
+		//  */dwadwa dawa awddapter() {
+			d
 			public void keyPressed(KeyEvent e) {
-				switch(e.getKeyCode()) {
-
-				/*
-				 * If the game is not paused, and the game is not over...
-				 * 
-				 * Ensure that the direction list is not full, and that the most
-				 * recent direction is adjacent to North before adding the
-				 * direction to the list.
-				 */
+				switch(e.getKeyCodse()) {
+ d waa
+				 * If the gamadwthe list.ad
 				case KeyEvent.VK_W:
-				case KeyEvent.VK_UP:
-					if(!isPaused && !isGameOver) {
-						if(directions.size() < MAX_DIRECTIONS) {
+				case KeyEvent.VK_Uda:
+					if(!isPaused && !isGameOadsver) {
+						if(directions.size(ds  a < MAX_DIRECTIONS) {
 							Direction last = directions.peekLast();
 							if(last != Direction.South && last != Direction.North) {
 								directions.addLast(Direction.North);
