@@ -19,6 +19,7 @@ public class SidePanel extends JPanel {
 	 * Serial Version UID.
 	 */
 	private static final long serialVersionUID = -40557434900946408L;
+	//this is a new comment by an engineer!
 
 	/**
 	 * The large font to draw with.
