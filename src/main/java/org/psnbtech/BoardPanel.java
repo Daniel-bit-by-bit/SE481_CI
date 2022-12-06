@@ -19,7 +19,7 @@ public class BoardPanel extends JPanel {
 	/**
 	 * Serial Version UID.
 	 */
-	private static final long serialVersionUID = -1102632585936750607L;
+	// private static final long serialVersionUID = -1102632585936750607L;
 
 	/**
 	 * The number of columns on the board. (Should be odd so we can start in
